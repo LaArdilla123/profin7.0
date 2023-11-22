@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+    background: linear-gradient(245.59deg, #89faa1 0%, #89f27f 28.53%, #89d300 75.52%);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+    display: none;
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 100px;
+    background: linear-gradient(275.59deg, #89faa1 0%, #89f27f 28.53%, #89d300 75.52%);
+}
+
+.container h1{
+    padding-top: 25px;
+}
+.template-card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card{
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card img{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.card-body h5{
+    text-align: center;
+    margin-left: 20px;
+    width: 180px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.card-body p{
+    text-align: center;
+    margin-left: 20px;
+    width: 180px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.card-body button{
+    margin-left: 20px;
+    width: 180px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.text-center{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+@media (max-width: 990px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #89d300 ;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-top: 23px;
+        margin-left: 0;
+        display: block;
+        margin: 7x 0;
+    }
+    .navlist.open{
+        right: 0;
+    }
+}

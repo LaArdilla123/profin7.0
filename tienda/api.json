@@ -1,0 +1,74 @@
+[
+    {
+        "precio": 1600,
+        "id": 1,
+        "title": "NewJean Lightstick",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/lightstick.jpg"
+    },
+    {
+        "precio": 350,
+        "id": 2,
+        "title": "Camiseta",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/camiseta.jpg"
+    },
+    {
+        "precio": 229,
+        "id": 3,
+        "title": "Beach Bag",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/bunny-beach-bag.jpg"
+    },
+    {
+        "precio": 80,
+        "id": 4,
+        "title": "Bolsa de tela",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/bolsa.jpg"
+    },
+    {
+        "precio": 120,
+        "id": 5,
+        "title": "Funda para iPhone",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/funda.jpg"
+    },
+    {
+        "precio": 185,
+        "id": 6,
+        "title": "Gorra Bordada",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/gorra%20bordada.jpg"
+    },
+    {
+        "precio": 300,
+        "id": 7,
+        "title": "Playera de conejo",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/playera.jpg"
+    },
+    {
+        "precio": 450,
+        "id": 8,
+        "title": "Sudadera",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/sudadera.jpg"
+    },
+    {
+        "precio": 620,
+        "id": 9,
+        "title": "Mochila",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/mochila.jpg"
+    },
+    {
+        "precio": 99,
+        "id": 10,
+        "title": "Photocards",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/photocards.jpg"
+    },
+    {
+        "precio": 99,
+        "id": 11,
+        "title": "Photocards -Get Up",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/photocars-getup.jpg"
+    },
+    {
+        "precio": 60,
+        "id": 12,
+        "title": "Taza",
+        "thumbnailUrl":"https://shiranaisaito.000webhostapp.com/Adaptativo/img-for-store/taza.jpg"
+    }
+]

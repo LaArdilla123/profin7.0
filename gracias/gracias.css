@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.gracias {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #89f8fa 0%, #7ff2df 28.53%, #00d3d3 75.52%);
+    position: relative;
+    align-items: center;
+}
+
+.img-container img {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 33%;
+    width: 500px;
+}
+
+.agra {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    float: left;
+}
+
+.agra h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 1535px) {
+    .img-container img {
+        margin-left: 33%;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .img-container img {
+        margin-left: 33%;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .img-container img {
+        margin-left: 33%;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .img-container img {
+        margin-left: 33%;
+        width: 500px;
+    }
+}
+
+@media (max-width: 990px) {
+    .img-container img {
+        margin-left: 33%;
+        width: 500px;
+    }
+}
+
+@media (max-width: 680px) {
+    .img-container img {
+        margin-left: 13%;
+        width: 300px;
+    }
+    .agra h1 {
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        padding-top: 100px;
+    }
+}

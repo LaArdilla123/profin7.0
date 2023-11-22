@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/nosotros/nosotros.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <title>NewJeans - Nosotros</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">NewJeans</a>
+
+        <ul class="navlist">
+            <li><a href="/index/index.html">Inicio</a></li>
+            <li><a href="/tienda/index.html">Tienda</a></li>
+            <li><a href="/login/login.html">Login</a></li>
+            <li><a href="/Registro/registro.html">Registrate</a></li>
+            <li><a href="#">Nosotros</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>NewJeans</h1>
+            <h4>Antes de su debut</h4>
+            <p>El 12 de noviembre de 2021 se informó que ADOR, subsidaria de HYBE, estaría debutando un grupo femenino
+                el proximo año. Las miembros de este serían aprendices reclutadas mediante la audición global realizada
+                entre HYBE y Source Music en 2019. </p>
+        </div>
+
+        <div class="new-img">
+            <img class="mySlides" src="/img/carrusel/ca1.jpg" alt="1">
+            <img class="mySlides" src="/img/carrusel/ca2.jpg" alt="2">
+            <img class="mySlides" src="/img/carrusel/ca3.jpg" alt="3">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+        </script>
+
+    </section>
+
+    <section class="texto">
+        <div class="texto-debut">
+            <h3>Debut: año 2022</h3>
+            <p>El 22 de julio fue el lanzamiento repentino del vídeo musical de "Attention", lo que salió de la ruta
+                habitual para los artistas de K-Pop al omitir el proceso de lanzar teasers antes de que se hiciera
+                público. La información esencial del grupo, como el nombre, la alineación y la información de debut, se
+                había mantenido en secreto. <br>
+                Su álbum debut incluye cuatro pistas: "Attention", "Hype Boy", "Cookie" y "Hurt", de las cuales tres
+                pistas serán las canciones principales. Todas las canciones del álbum debut tienen vídeos musicales
+                adjuntos. El ábum se lanzaría digitalmente el 1 de agosto y de forma física el 8 de agosto.
+            </p>
+        </div>
+        <div class="musica-youtube">
+            <iframe src="https://www.youtube.com/embed/61slpNrHgUE?si=RUfqCUafiiHG55MD"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="alumno">
+        <div class="tarjeta">
+            <img class="tarjeta" src="/img/assets/tarjeta-100.jpg" alt="foto-tienda">
+        </div>
+        <div class="texto-tienda">
+            <h1>Progreso realizado para la materia: <br> <br>Diseño web HTML5 y CSS3 adaptativo</h1>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="final">
+            <h3>En contenido de esta página es 100% con fines educativos, <br> todos los derechos de autor de NewJeans
+                pertenecen <i>HybeLabels</i></h3>
+        </div>
+    </footer>
+
+    <div class="iconos">
+        <a href="https://www.instagram.com/newjeans_official/"><i class="ri-instagram-line"></i></a>
+        <a href="https://youtube.com/playlist?list=PL_Cqw69_m_ywY88NJ5SlpuaO_rmpKXO0D&si=JzUeHFoAkGIU7tA_"><i class="ri-youtube-line"></i></a>
+        <a href="https://twitter.com/NewJeans_ADOR"><i class="ri-twitter-x-fill"></i></a>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/nosotros/nosotros.js"></script>
+</body>
+
+</html>
